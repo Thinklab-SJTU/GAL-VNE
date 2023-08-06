@@ -1,0 +1,41 @@
+arrival_rate:
+  distribution: possion
+  dtype: float
+  lam: 0.1
+  reciprocal: true
+edge_attrs_setting:
+- distribution: uniform
+  dtype: int
+  generative: true
+  high: 50
+  low: 0
+  name: bw
+  owner: edge
+  type: resource
+events_file_name: events.yaml
+lifetime:
+  distribution: exponential
+  dtype: float
+  scale: 500
+node_attrs_setting:
+- distribution: uniform
+  dtype: int
+  generative: true
+  high: 50
+  low: 0
+  name: cpu
+  owner: node
+  type: resource
+num_vns: 2000
+save_dir: dataset/vns
+setting_file_name: vns_setting.yaml
+topology:
+  random_prob: 0.5
+  type: random
+vn_size:
+  distribution: uniform
+  dtype: int
+  high: 10
+  low: 2
+vns_file_name: vn.gml
+vns_save_dir: vns
