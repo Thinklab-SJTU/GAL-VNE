@@ -22,9 +22,20 @@ For more details, please see this [project](https://hygeng.top/publication/2023k
 
 ### Requirements    
 ```
-torch                         1.12.1    
-torch-geometric               2.2.0    
-numpy
+easydict==1.10    
+gym==0.26.2    
+Jinja2==3.1.2    
+matplotlib==3.8.3    
+networkx==3.0    
+numpy==1.23.5    
+ortools==9.4.1874    
+pandas==2.2.2    
+PyYAML==6.0    
+scikit_learn==1.2.2    
+scipy==1.13.0    
+torch==1.12.1    
+torch_geometric==2.2.0    
+tqdm==4.64.1    
 ```
 
 ### Specify configurations
